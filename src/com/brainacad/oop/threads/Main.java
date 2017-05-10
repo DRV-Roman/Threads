@@ -5,7 +5,8 @@ import static java.lang.Thread.sleep;
 public class Main {
 
     public static void main(String[] args) {
-        for (int i = 0; i < 6; i++) {
+
+        for (int i = 0; i < 7; i++) {
             MyThread myThread = new MyThread();//first way to create a thread
             myThread.setDaemon(false);//true - приложение не ждет завершения потоков
             myThread.start();
